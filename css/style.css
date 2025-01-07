@@ -1,5 +1,5 @@
 body {
-  font-family: Robota, sans-serif;
+  font-family: "Robota", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -29,12 +29,11 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-link:hover {
-  color: #404bbf;
-}
+.nav-link:hover,
 .nav-link:focus {
   color: #404bbf;
 }
+
 .contact-info {
   font-style: normal;
 }
@@ -46,9 +45,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.contact-link.hover {
-  color: #404bbf;
-}
-.contact-link.focus {
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
