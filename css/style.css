@@ -3,7 +3,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-.link {
+.navigation {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -12,7 +12,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.link span {
+.navigation span {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -21,7 +21,7 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.nav-link {
+.nav-navigation {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -29,8 +29,8 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-link:hover,
-.nav-link:focus {
+.nav-navigation:hover,
+.nav-navigation:focus {
   color: #404bbf;
 }
 
@@ -47,5 +47,35 @@ body {
 }
 .contact-link:hover,
 .contact-link:focus {
+  color: #404bbf;
+}
+.business-section {
+  background-color: #2e2f42;
+}
+.business-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.business-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+}
+.business-button:hover,
+.business-button:focus {
   color: #404bbf;
 }
