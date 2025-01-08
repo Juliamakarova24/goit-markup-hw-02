@@ -19,7 +19,7 @@ ul {
   color: #4d5ae5;
 }
 .header-logo-span {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 .header-menu-link {
   font-weight: 500;
@@ -48,10 +48,11 @@ ul {
 .header-adress-link:focus {
   color: #404bbf;
 }
-.business-section {
+
+.main-sectionone {
   background-color: #2e2f42;
 }
-.business-title {
+.main-sectionone-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -59,7 +60,8 @@ ul {
   text-align: center;
   color: #fff;
 }
-.business-button {
+.main-sectionone-button {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -68,7 +70,75 @@ ul {
   color: #fff;
   cursor: pointer;
 }
-.business-button:hover,
-.business-button:focus {
+.main-sectionone-button:hover,
+.main-sectionone-button:focus {
   background-color: #404bbf;
+}
+.main-sectiontwo-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.main-sectiontwo-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.main-sectionthree {
+  background-color: #f4f4fd;
+}
+.main-subject {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.main-sectionthree-item {
+  background-color: #fff;
+}
+.main-sectionthree-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.main-sectionthree-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+.main-sectionfour-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.main-sectionfour-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
